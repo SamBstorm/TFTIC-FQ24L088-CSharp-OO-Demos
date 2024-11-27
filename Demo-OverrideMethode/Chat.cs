@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo_OverrideMethode
 {
-    internal class Chat : Animal
+    internal sealed class Chat : Animal
     {
         public Chat(string nom) : base(nom)
         {

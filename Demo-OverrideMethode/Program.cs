@@ -21,6 +21,20 @@
                 ((Chat)b).Ronroner();
             }
             b.SeDeplacer();
+
+            Animal c = new Chien("Rex");
+            Console.WriteLine(c);
+            c.Manger();
+            switch (c)
+            {
+                case Chat cat:
+                    cat.Ronroner();
+                    break;
+                case Chien dog:
+                    dog.RemuerQueue();
+                    break;
+            }
+            c.SeDeplacer();
         }
     }
 }
